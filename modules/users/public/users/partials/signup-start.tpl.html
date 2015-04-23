@@ -1,0 +1,16 @@
+<spass-header h1="Sign Up" subtext="Slick Play AngularJs SecureSocial Seed">
+    Enter your email address. Wait for the link to arrive in your inbox, then follow it to complete signing up.
+</spass-header>
+<div class="center-block text-center">
+    <form ng-controller="SignUpController" ng-submit="sendEmail()" class="form-container">
+        <spass-input
+                name="email"
+                model="form.email"
+                type="email" size="40"
+                errors='form.errors["email"]'
+                placeholder="Email Address"
+                required="true"></spass-input>
+
+        <spass-submit value="Send Email" class="success"></spass-submit>
+    </form>
+</div>

@@ -1,0 +1,17 @@
+logs
+project/project
+target
+dist
+/.idea
+/.ensime
+/.ensime_cache
+/out
+/.idea_modules
+/.classpath
+/.project
+/RUNNING_PID
+/.settings
+/db
+.DS_Store
+evolutions
+activator*
